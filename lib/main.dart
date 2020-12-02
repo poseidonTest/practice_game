@@ -10,7 +10,7 @@ class FlutterHero extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.bottom]);
-    return MaterialApp(title: "FlutterHero", home: GameScreen());
+    return MaterialApp(title: "Flutter Hero Game", home: GameScreen());
   }
 }
 
